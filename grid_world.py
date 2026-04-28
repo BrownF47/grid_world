@@ -46,6 +46,9 @@ class AGENT():
     def choose_move(self):
         if self.type == 'random':
             return self.choose_random_move()
+        
+        else: 
+            return self.choose_random_move()
     
     def choose_random_move(self):
         move = random.choice(list(self.valid_moves))
